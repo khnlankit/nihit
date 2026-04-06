@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="IT Student Portfolio. Building scalable web experiences with modern technologies.">
+    <meta name="author" content="Your Name">
+    <!-- Page Keywords (less critical nowadays, but some use it) -->
+    <meta name="keywords" content="BCA, IT Student, Web Developer, Portfolio, Laravel, React, PHP, Projects">
+
+    <!-- Open Graph for social sharing -->
+    <meta property="og:title" content="Your Name — IT Student & Developer">
+    <meta property="og:description" content="Building scalable web experiences with modern technologies.">
+    <meta property="og:image" content="path-to-your-image.png">
+    <meta property="og:url" content="https://yourportfolio.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Your Name — IT Student & Developer">
+    <meta name="twitter:description" content="BCA Student">
+    <meta name="twitter:image" content="path-to-your-image.png">
+    <title>Nihit Ray</title>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo"><i class="fa-solid fa-video"></i> Nihit Ray</a>
+            <div class="nav-right">
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+                <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code"></i> Projects</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+                <li class="theme-toggle" id="themeToggle" title="Toggle theme">
+                    <span class="sun-icon"><i class="fa-solid fa-sun"></i></span>
+                    <span class="moon-icon"><i class="fa-solid fa-moon"></i></span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        
+        <div id="canvas-container"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge"><i class="fa-solid fa-video"></i> Video Editor</span>
+                <h1 class="hero-title">Professional Video Editor</h1>
+<p class="hero-subtitle">Crafting Visual Stories That Connect</p>
+<p class="hero-description">
+From reels to cinematic videos, I specialize in editing content that engages, inspires, 
+and leaves a lasting impression using advanced editing techniques and creative direction.
+</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="cta-button primary"><i class="fa-solid fa-folder-open"></i> Portfolio</a>
+                    <a href="#contact" class="cta-button secondary"><i class="fa-regular fa-paper-plane"></i> Hire
+                        Me</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image">
+                    <img src="nihit.png"
+                        alt="Student profile picture" class="profile-img">
+                </div>
+                <div class="blob-bg"></div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="section-container">
+            <h2 class="section-title"><i class="fa-solid fa-address-card"></i> About Me</h2>
+            <div class="about-content">
+                <p>I am a creative video editor specializing in crafting visually engaging and impactful content. With a strong eye for detail and storytelling, I transform raw footage into polished videos that connect with audiences. My work focuses on smooth transitions, cinematic visuals, and modern editing styles that elevate every project.</p>
+
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <h3>Education</h3>
+                        <ul>
+                            <li>BCA — Ratna Rajyalaxmi Campus, Tribhuvan University (Ongoing)</li>
+                            <li>+2 — Gyankoop Academy</li>
+                            <li>10th Grade —siddartha English School</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fa-solid fa-code-compare"></i></div>
+                        <h3>Editing Skills</h3>
+                        <ul>
+                            <li><strong>Video Editing:</strong>Premiere Pro, CapCut, After Effects </li>
+                            <li><strong>Color Grading & Cinematic Looks:</strong></li>
+                            <li><strong>Video Editing: Premiere Pro, Blender, After Effects  :</strong></li>
+                            <li><strong>YouTube Video Editing,</strong></li>
+                            <li><strong>Short-form Content (Reels, Shorts),</strong></li>
+                             <li><strong>Transitions & Motion Effects,</strong></li>
+                              <li><strong> Sound Design & Sync Editing,</strong></li>
+                               
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>Video Editing  </li>
+                            <li>Cinematic Storytelling </li>
+                            <li>Motion Graphics </li>
+                            <li>Content Creation </li>
+                            <li>Visual Effects (VFX)</li>
+                            <li>Social Media Trends</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+     <section id="experience" class="section experience">
+        <div class="section-container">
+            <h2 class="section-title"><i class="fa-solid fa-chart-line"></i> Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3><i class="fa-solid fa-video"></i> Freelance Video Editor</h3>
+                        <p class="timeline-company">Worked with YouTubers in Nepall</p>
+                        <p class="timeline-period">Jan 2024 — Present</p>
+                        <p class="timeline-description">Freelance Video Editor Worked with YouTubers in Nepal (Taha Research, Why So Offended, Misguided Nepal, etc.) 2024 — Present collaborated with popular YouTube creators to produce engaging and high-quality video content. Edited vlogs, informational videos, and short-form content with a focus on storytelling, smooth transitions, color grading, and audience engagement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="section-container">
+        <h2 class="section-title">
+            <i class="fa-solid fa-video"></i> Editing Portfolio
+        </h2>
+
+        <div class="projects-wrapper">
+
+            <div class="projects-grid">
+
+                <!-- 🎥 VIDEO 1 -->
+                <a href="https://www.youtube.com/watch?v=UsyqthKD7Co" target="_blank" class="project-card">
+                    <div class="thumb-wrapper">
+                        <img src="https://img.youtube.com/vi/UsyqthKD7Co/hqdefault.jpg" class="video-thumb">
+                        <div class="play-btn">▶</div>
+                    </div>
+                    <h3>Did Manjushree CHOP Kathmandu in Chobar?</h3>
+                </a>
+
+                <!-- 🎥 VIDEO 2 -->
+                <a href="https://www.youtube.com/watch?v=owdBuwlZhF0" target="_blank" class="project-card">
+                    <div class="thumb-wrapper">
+                        <img src="https://img.youtube.com/vi/owdBuwlZhF0/hqdefault.jpg" class="video-thumb">
+                        <div class="play-btn">▶</div>
+                    </div>
+                    <h3>King Birendra and the Last Days</h3>
+                </a>
+
+                <!-- 🎥 VIDEO 3 -->
+                <a href="https://www.youtube.com/watch?v=9XgfiaJjxHg" target="_blank" class="project-card">
+                    <div class="thumb-wrapper">
+                        <img src="https://img.youtube.com/vi/9XgfiaJjxHg/hqdefault.jpg" class="video-thumb">
+                        <div class="play-btn">▶</div>
+                    </div>
+                    <h3>Who Is Going Head-to-Head BATTLE in this ELECTION? || जित मात्र एकको</h3>
+                </a>
+
+            </div>
+
+            <!-- ➡ VIEW MORE BUTTON (OUTSIDE GRID) -->
+            <a href="https://ytjobs.co/talent/vitrine/442483" target="_blank" class="view-more-btn">
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="section-container">
+            <h2 class="section-title"><i class="fa-regular fa-paper-plane"></i> Get in Touch</h2>
+            <p class="contact-subtitle">I'm a freelance video editor available for projects and collaborations. If you need engaging video content, cinematic edits, or social media videos, feel free to reach out. I'm always open to new opportunities! </p>
+
+            <div class="contact-wrapper">
+             <form id="contactForm" class="contact-form" 
+      action="https://formspree.io/f/mreoozea" 
+      method="POST">
+
+    <div class="input-group">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" name="name" placeholder="Your name" required>
+    </div>
+
+    <div class="input-group">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" name="email" placeholder="Your email" required>
+    </div>
+
+    <div class="input-group textarea-group">
+        <i class="fa-solid fa-message"></i>
+        <textarea name="message" placeholder="Your message" rows="6" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">
+        <i class="fa-solid fa-paper-plane"></i> Let’s Work Together
+    </button>
+   <p id="formStatus" class="form-status"></p>
+</form>
+<!--<p id="formStatus" style="color: #3b82f6; margin-top:10px;"></p>-->
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4><i class="fa-solid fa-envelope"></i> Email</h4>
+                        <a href="mailto:nihit@gmail.com">nihit@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fa-solid fa-phone"></i> Phone</h4>
+                        <a href="tel:+977-9826057330">+977 9826057330</a>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fa-solid fa-location-dot"></i> Location</h4>
+                        <p>Kathmandu, Nepal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1Jt6pyLd6k/" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-facebook fa-2x"></i></a>
+                <a href="https://www.instagram.com/nihit_ray.18?igsh=MWNzajZpMng1OXlrOQ==" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="https://x.com/nihit_ray" target="_blank" rel="noopener"><i
+                        class="fa-brands fa-twitter fa-2x"></i></a>
+            </div>
+            <p>&copy; 2026 Nihit. Exploring tech, writing code.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  
+</body>
+
+
+</html>
